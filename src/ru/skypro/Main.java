@@ -2,12 +2,14 @@ package ru.skypro;
 
 public class Main {
     public static void main(String[] args){
-            byte a = 127;
-            short b = 32767;
-            int c = 158_789;
-            long z = 4567L;
-            float e = 16f;
-            double y = 15.7;
-            System.out.println(a + " " + b + " " + c + " " + z + " " + e + " " + y);
+        double boxer1 = 78.2;
+        double boxer2 = 82.7;
+        double sum = boxer1 + boxer2;
+        double difference = (boxer1 - boxer2) ;
+        if (difference < 0){
+            difference = difference * -1;
+        }
+        System.out.println("Общий вес боксеров " + sum + " кг");
+        System.out.println("Разница в весе " + difference + " кг");
         }
     }
