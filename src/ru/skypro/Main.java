@@ -2,14 +2,13 @@ package ru.skypro;
 
 public class Main {
     public static void main(String[] args){
-        task7();
+        task8();
     }
-    public static void task7(){
-        int a = 5;
-        int b = 7;
-        a = b - a;
-        b = b - a;
-        a = b + a;
-        System.out.println(a + " " + b);
+    public static void task8(){
+        int a = 127;
+        int b;
+        a = a / 10;
+        b = a % 10;
+        System.out.println(b);
     }
-    }
+}
