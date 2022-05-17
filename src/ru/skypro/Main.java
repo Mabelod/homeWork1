@@ -2,15 +2,14 @@ package ru.skypro;
 
 public class Main {
     public static void main(String[] args){
-        task5();
+        task7();
     }
-    public static void task5(){
-        byte a = 12;
-        byte b = 27;
-        byte c = 44;
-        byte d = 15;
-        byte e = 9;
-        int result = Math.abs(a * (b + ( c - d * e)));
-        System.out.println(result);
+    public static void task7(){
+        int a = 5;
+        int b = 7;
+        a = b - a;
+        b = b - a;
+        a = b + a;
+        System.out.println(a + " " + b);
     }
     }
